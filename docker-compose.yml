@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: your-dockerhub-username/CsharpIntro:latest
+    env_file:
+      - CsharpIntro-env
+    ports:
+      - "7045:80"
